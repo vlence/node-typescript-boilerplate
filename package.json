@@ -1,0 +1,31 @@
+{
+  "name": "node-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for writing Node.js applications using TypeScript.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlence/node-typescript-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Victor Basumatary <vlenceleuth@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/vlence/node-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vlence/node-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/webpack-env": "^1.13.5",
+    "clean-webpack-plugin": "^0.1.18",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
+  }
+}
