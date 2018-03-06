@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "allowJs": true,
+    "disableSizeLimit": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es5"
+    ],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "build",
+    "preserveSymlinks": true,
+    "rootDir": ".",
+    "strict": true
+  }
+}
